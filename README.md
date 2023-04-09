@@ -16,7 +16,7 @@ Function parts: `f` future, `p` present, `a` annuity, `g` gradient
 
 After each entry with an amount, the program will store the results in a list such as `[135.33, 109.5]` which is displayed after each calculation. If an interest rate has already been declared when calculating an amount to store, the program will retain this information, which can be used for last entry adjustments. 
 
-- To replace the last entry with an equivalent amount shifted by a number of terms, type `.` followed by the year shift. In the case of the above list, typing `.-3` will change the list to `[135.33, 106.28]`
+- To replace the last entry with an equivalent amount shifted by a number of terms, type `.` followed by the year shift. In the case of the above list, typing `.-3` will change the list to `[135.33, 106.28]` at 1%
 - To enter an amount into the list, simply type `=` followed by the amount
 - To delete the last entry, type `del`
 - To finish the problem, type `sum` and the program will print the sum of the list and clear it for the next problem
